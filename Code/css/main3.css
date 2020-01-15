@@ -5,7 +5,38 @@ body{
 h1{
 
 }
-#style1{
+#style1Center{
     font-weight: bold;
-    color: rgb(80, 74, 74)
+    color: rgb(80, 74, 74);
+    text-align: center;
+}
+#style1Left{
+    font-weight: bold;
+    color: rgb(80, 74, 74);
+    text-align: left;
+}
+#style2Center{
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(37, 35, 35);
+    text-align: center;
+}
+#style2Left{
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(37, 35, 35);
+    text-align: left;
+}
+#container{
+    width: 720px;
+}
+.imageRight{
+    float: right;
+    position: absolute;
+    top: 128px;
+    right: 32px;
+}
+#floated{
+    float: left;
+    width: 150px;
 }
