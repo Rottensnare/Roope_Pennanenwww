@@ -1,10 +1,15 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    background-color: burlywood;
+    color: darkgray;
 }
 h1{
-
+    border-bottom: red;
+    color: red;
+    font-size: 16;
 }
+
 #style1Center{
     font-weight: bold;
     color: rgb(80, 74, 74);
@@ -40,3 +45,14 @@ h1{
     float: left;
     width: 150px;
 }
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration-style: wavy;
+  }
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
