@@ -1,0 +1,12 @@
+body{
+    background-image: radial-gradient(ellipse at top, #d6d5d5, transparent),
+                      radial-gradient(ellipse at bottom, #81817f, transparent);
+}
+
+.flex-container > div{
+    flex-direction: row;
+    align-items: stretch;
+    width: fit-content;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
